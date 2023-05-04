@@ -6,6 +6,39 @@ This repo houses code prepared to demonstrate the power of Chainlink Functions. 
 The Masterclass will be held on 2 May 2023, at 5pm EST.  Details can be found [here](https://go.chain.link/masterclass/functions-module-1).
 
 
+StableCoin contract deployed to 0x58c4B4460b110753D9a904cC1b1112FC841136BC on mumbai
+
+RecordLabel contract deployed to 0x81b7fE7D1432683d19f10E8a1aa7C26363d7eFA1 on mumbai
+
+Approving RecordLabel to spend the balance of the SimpleStableCoin deployer ("0xe821c6eEe1d0149E46E947Fe802cf79D31698691") as payments to artists...
+
+
+Adding following artist data to RecordLabel:  ca22091a-3c00-11e9-974f-549f35141000 Tones&I 14000000 frustramatic@gmail.com
+
+
+Creating Functions billing subscription
+Waiting 1 blocks for transaction 0x88f7d4f9cc66adfe181acd8e3d088786fddf1601902e4bd3dbb1908533f2d8f5 to be confirmed...
+Subscription created with ID: 779
+Duplicate definition of Transfer (Transfer(address,address,uint256,bytes), Transfer(address,address,uint256))
+Funding with 2.5 LINK
+Waiting 1 blocks for transaction 0xc9a074ee4e871050450c350c7c15e843799fa300f6d9634275b4859dba922b4f to be confirmed...
+Subscription 779 funded with 2.5 LINK
+Adding consumer contract address 0x81b7fE7D1432683d19f10E8a1aa7C26363d7eFA1 to subscription 779
+Waiting 2 blocks for transaction 0xe41e544d9d4f2ef7d5d6a38045c40c781f83713c6019b222360b2912daad65a0 to be confirmed...
+Authorized consumer contract: 0x81b7fE7D1432683d19f10E8a1aa7C26363d7eFA1
+
+Created subscription with ID: 779
+Owner: 0xe821c6eEe1d0149E46E947Fe802cf79D31698691
+Balance: 2.5 LINK
+1 authorized consumer contract:
+[ '0x81b7fE7D1432683d19f10E8a1aa7C26363d7eFA1' ]
+
+Seeded initial Artist Data for Tones&I and assigned them wallet address 0x4E7a7c8779DF158dF75638d1b4FF97C0Dd463b55.
+
+
+
+
+
 > **⚠️⚠️⚠️ Important ⚠️⚠️⚠️**
 > registration is compulsory!
 
@@ -36,4 +69,4 @@ The basic workflow is as follows.  There are only three pieces that we need to p
 
 After that, the rest of the heavy lifting is done by the Chainlink Decentralized Oracle Network, **including the fully decentralized execution of the custom code you provide,and the application of Chainlink's Off Chain Reporting consensus protocal to the results of the computation done in your custom code!**.  
 
-The repo provides a bunch of Hardhat Tasks that give you CLI-based tooling to deploy contracts, trigger Chainlink Functions, encrypt secrets that are available off-chain etc.
+The repo provides a bunch of Hardhat Tasks that give you CLI-based tooling to deploy contracts, trigger Chainlink Functions, encrypt secrets that are available off-chain etc.# twlio-api-chainlink
