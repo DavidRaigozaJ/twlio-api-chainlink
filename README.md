@@ -1,10 +1,4 @@
-# Repo for the Chainlink Functions Deep Dive Masterclass
-This repo houses code prepared to demonstrate the power of Chainlink Functions. Chainlink Functions is a powerhouse technology that helps blockchain engineers connect their Decentralized Applications to **any** data source or API on Earth. While keeping API keys and secrets secure (through encryption), and having the data returned from decentralized computation run through Chainlink's consensus protocol, to ensure that the data returned to your smart contract is
-- trust minimized
-- verifiably cryptographically truthful
-
-The Masterclass will be held on 2 May 2023, at 5pm EST.  Details can be found [here](https://go.chain.link/masterclass/functions-module-1).
-
+## MasterClass assignments completed
 
 StableCoin contract deployed to 0x58c4B4460b110753D9a904cC1b1112FC841136BC on mumbai
 
@@ -14,6 +8,14 @@ Approving RecordLabel to spend the balance of the SimpleStableCoin deployer ("0x
 
 
 Adding following artist data to RecordLabel:  ca22091a-3c00-11e9-974f-549f35141000 Tones&I 14000000 frustramatic@gmail.com
+
+# Repo for the Chainlink Functions Deep Dive Masterclass
+
+This repo houses code prepared to demonstrate the power of Chainlink Functions. Chainlink Functions is a powerhouse technology that helps blockchain engineers connect their Decentralized Applications to **any** data source or API on Earth. While keeping API keys and secrets secure (through encryption), and having the data returned from decentralized computation run through Chainlink's consensus protocol, to ensure that the data returned to your smart contract is
+- trust minimized
+- verifiably cryptographically truthful
+
+The Masterclass will be held on 2 May 2023, at 5pm EST.  Details can be found [here](https://go.chain.link/masterclass/functions-module-1)
 
 
 Creating Functions billing subscription
